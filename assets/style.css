@@ -1,0 +1,35 @@
+/* Box Sizing to include padding and margins */
+* {
+  box-sizing: border-box;
+}
+/* background image ended up in the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #777777;
+  font-size: 18px;
+  line-height: 34px;
+  background-image: url("https://docs.google.com/drawings/d/e/2PACX-1vSlaHwMxGC2w07UoH0B1QIKUKxiN8lK_g24mmaG7iCfa0KPR9ktjdGXt3_U1dATHvI-iNu9M7fOse_7/pub?w=415&h=419");
+}
+/* contains my name and the navigation */
+header {
+  width: 100%;
+  background: #ffffff;
+  color: #ffffff;
+  border-bottom: 1px solid #cccccc;
+  float: right;
+}
+
+/* The main container holdeing the page content */
+.container {
+  clear: both;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+/* Main Content Container */
+.mainsection {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
