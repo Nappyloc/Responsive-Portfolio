@@ -4,6 +4,7 @@
 }
 /* background image ended up in the body */
 body {
+  position: relative;
   font-family: Arial, Helvetica, sans-serif;
   color: #777777;
   font-size: 18px;
@@ -44,6 +45,7 @@ header {
 
 /* Name Cube */
 #namebox {
+  position: absolute;
   width: 250px;
   height: 70px;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -54,8 +56,8 @@ header {
   color: #ffffff;
   font-weight: bold;
   margin-bottom: 0%;
-  margin-left: 235px;
   float: left;
+  margin-left: 25%;
 }
 
 /* Navigation */
@@ -85,7 +87,7 @@ header {
   clear: both;
   width: 100%;
   max-width: 960px;
-  margin: 0 auto;
+  margin: auto;
   padding-top: 50px;
 }
 /* Main Content Container */
@@ -182,4 +184,18 @@ input {
 textarea {
   width: 95%;
   margin-bottom: 2%;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
 }
